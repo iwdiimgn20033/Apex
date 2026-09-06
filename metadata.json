@@ -1,0 +1,6 @@
+{
+  "name": "ApexBroker",
+  "description": "Next-generation stock, forex, and crypto brokerage platform with MT4/MT5 trading integration, live charts, PayPal deposits, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

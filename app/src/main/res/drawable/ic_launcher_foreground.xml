@@ -1,0 +1,72 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Circle / Badge backdrop in safe zone (centered at 54,54) -->
+    <path
+        android:pathData="M54,22 C71.67,22 86,36.33 86,54 C86,71.67 71.67,86 54,86 C36.33,86 22,71.67 22,54 C22,36.33 36.33,22 54,22 Z"
+        android:fillColor="#1500E5FF" />
+
+    <!-- Candlestick 1: Red Bearish pullback (x: 32) -->
+    <!-- Wick -->
+    <path
+        android:pathData="M34,44 L34,70"
+        android:strokeWidth="2"
+        android:strokeColor="#FF5252" />
+    <!-- Candle Body -->
+    <path
+        android:pathData="M30.5,49 L37.5,49 L37.5,63 L30.5,63 Z"
+        android:fillColor="#FF5252" />
+
+    <!-- Candlestick 2: Green Bullish (x: 46) -->
+    <!-- Wick -->
+    <path
+        android:pathData="M48,38 L48,72"
+        android:strokeWidth="2"
+        android:strokeColor="#00E676" />
+    <!-- Candle Body -->
+    <path
+        android:pathData="M44.5,43 L51.5,43 L51.5,61 L44.5,61 Z"
+        android:fillColor="#00E676" />
+
+    <!-- Candlestick 3: Tall Bullish (x: 60) -->
+    <!-- Wick -->
+    <path
+        android:pathData="M62,30 L62,68"
+        android:strokeWidth="2"
+        android:strokeColor="#00E676" />
+    <!-- Candle Body -->
+    <path
+        android:pathData="M58.5,35 L65.5,35 L65.5,56 L58.5,56 Z"
+        android:fillColor="#00E676" />
+
+    <!-- Candlestick 4: High Breakout (x: 74) -->
+    <!-- Wick -->
+    <path
+        android:pathData="M75,25 L75,56"
+        android:strokeWidth="2"
+        android:strokeColor="#00E5FF" />
+    <!-- Candle Body -->
+    <path
+        android:pathData="M71.5,28 L78.5,28 L78.5,46 L71.5,46 Z"
+        android:fillColor="#00E5FF" />
+
+    <!-- Trend Line / Golden Surge Path -->
+    <path
+        android:pathData="M26,68 L40,54 L52,58 L72,30"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Arrow Head at Breakout Peak (pointing up-right) -->
+    <path
+        android:pathData="M60,30 L74,30 L74,44"
+        android:strokeWidth="3.5"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>
